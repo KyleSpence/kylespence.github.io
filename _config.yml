@@ -1,0 +1,17 @@
+title: Test
+description: >-
+  A blog built with Jekyll
+baseurl: "" # Leave it empty unless your site is in a subdirectory
+theme: minima
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# GitHub Pages settings
+remote_theme: "jekyll/minima" # If using a remote theme
